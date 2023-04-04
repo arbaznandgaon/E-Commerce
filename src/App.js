@@ -1,11 +1,13 @@
-import logo from './logo.svg';
 import './App.css';
+import Header from './Containers/Header';
 
 function App() {
   return (
     <div className="App">
-    <a className='text-2xl'>Hello</a>
-    </div>
+<Header/> 
+ 
+  </div>
+
   );
 }
 
